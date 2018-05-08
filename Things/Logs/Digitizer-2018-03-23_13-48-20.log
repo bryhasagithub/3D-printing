@@ -1,0 +1,359 @@
+
+obj/src/util/initialization.cpp:25: info
+void initialize(int, char **)
+Fri Mar 23 13:48:20 2018
+Arguments:
+  /Library/MakerBot/digitizer
+
+obj/src/util/initialization.cpp:54: info
+void initialize(int, char **)
+Fri Mar 23 13:48:20 2018
+Version: 3.10.1.1389
+
+obj/src/util/initialization.cpp:58: info
+void initialize(int, char **)
+Fri Mar 23 13:48:20 2018
+MiracleGrue Version: 3.9.4.1389
+
+obj/src/util/initialization.cpp:62: info
+void initialize(int, char **)
+Fri Mar 23 13:48:20 2018
+Qt Version: 5.4.1
+
+obj/src/util/initialization.cpp:64: info
+void initialize(int, char **)
+Fri Mar 23 13:48:20 2018
+QSysInfo platform: 15
+
+obj/src/util/platform.cpp:26: info
+void modifyPluginPath()
+Fri Mar 23 13:48:20 2018
+Original plugin path: 
+
+obj/src/util/platform.cpp:42: info
+void modifyPluginPath()
+Fri Mar 23 13:48:20 2018
+Modified plugin path: /Library/MakerBot/lib/qtplugins
+
+obj/src/core/application.cpp:106: info
+Application::Application(int *, char **, const QString &, const QString &, const MakerBot::Version &)
+Fri Mar 23 13:48:20 2018
+Translation file ':/translations/mbd_en_US' not found, proceeding with source language
+
+obj/src/util/initialization.cpp:173: info
+void initializeThingsDirectory()
+Fri Mar 23 13:48:20 2018
+Copying things-skel from /Library/MakerBot/things-skel
+
+obj/src/util/log.cpp:87: info
+void initializeLogging(const QString &)
+Fri Mar 23 13:48:20 2018
+On-disk log initialized in /Users/Brian/Things/Logs/Digitizer-2018-03-23_13-48-20.log
+
+obj/src/gl_util.cpp:53: info
+void MakerBot::logQGLFormat(const QGLFormat &)
+Fri Mar 23 13:48:20 2018
+QGLFormat: accum=0, accumBufferSize=-1, alpha=1, alphaBufferSize=8, blueBufferSize=8, depth=1, depthBufferSize=24, directRendering=1, doubleBuffer=1, greenBufferSize=8, hasOverlay=0, majorVersion=2, minorVersion=1, openGLVersionFlags=258175, plane=0, profile=0, redBufferSize=8, rgba=1, sampleBuffers=1, samples=4, stencil=1, stencilBufferSize=8, stereo=0, swapInterval=1
+
+obj/src/core/conveyorqt.cpp:209: info
+virtual void conveyor::ConveyorQt::doHello()
+Fri Mar 23 13:48:20 2018
+Sending hello to conveyor
+
+obj/src/main/cpp/asynchronous_method.cpp:90: info
+void conveyor::AsynchronousMethod::invoke(JsonRpc &, const Json::Value &)
+Fri Mar 23 13:48:20 2018
+hello parameters: {
+   "username" : "Brian"
+}
+
+obj/src/update/check_for_updates.cpp:230: info
+void CheckForUpdates::Private::requestInternal()
+Fri Mar 23 13:48:20 2018
+Requesting application updates list from internal server: https://y.soft.makerbot.net/autoupdate/MBDAutomaticUpdates.json
+
+obj/src/main/cpp/asynchronous_method.cpp:36: info
+virtual void conveyor::AsynchronousMethodPrivate::response(const Json::Value &)
+Fri Mar 23 13:48:20 2018
+hello response: "world"
+
+obj/src/update/check_for_announcements.cpp:49: info
+void CheckForAnnouncements::Private::requestAnnouncementsUpdate()
+Fri Mar 23 13:48:20 2018
+Requesting announcements from MakerBot server: https://y.soft.makerbot.net/files/Announcements.json
+
+obj/src/digitizer_main.cpp:58: info
+QString loadStyleSheet()
+Fri Mar 23 13:48:20 2018
+Loading style sheet: :/digitizer/style.css
+
+obj/src/gl_util.cpp:53: info
+void MakerBot::logQGLFormat(const QGLFormat &)
+Fri Mar 23 13:48:22 2018
+QGLFormat: accum=0, accumBufferSize=-1, alpha=0, alphaBufferSize=-1, blueBufferSize=8, depth=1, depthBufferSize=24, directRendering=1, doubleBuffer=1, greenBufferSize=8, hasOverlay=0, majorVersion=2, minorVersion=1, openGLVersionFlags=258175, plane=0, profile=0, redBufferSize=8, rgba=1, sampleBuffers=0, samples=-1, stencil=1, stencilBufferSize=8, stereo=0, swapInterval=1
+
+obj/src/gl_widget.cpp:66: info
+MakerBot::GLWidget::Private::Private(MakerBot::GLWidget &, const QGLWidget &, const Ground::PlatformShape, const Ground::DrawFlags)
+Fri Mar 23 13:48:22 2018
+QGLWidget: isValid=1, isSharing=1
+
+obj/src/util/paths.cpp:99: info
+QString thingsSubdirectory(const QString &, const QString &)
+Fri Mar 23 13:48:22 2018
+Creating scan archive directory: /Users/Brian/Things/Digitizer Scans
+
+obj/src/scan/camera_widget.cpp:58: info
+Scan::CameraWidget::Private::Scene::Scene(std::shared_ptr<Camera>)
+Fri Mar 23 13:48:22 2018
+Creating QGraphicsVideoItem
+
+obj/src/scan/step_widget.cpp:123: info
+void Scan::StepWidget::start()
+Fri Mar 23 13:48:22 2018
+Starting step: Scan::ConnectStepWidget
+
+obj/src/main/cpp/conveyorprivate.cpp:438: info
+void conveyor::ConveyorPrivate::helloReceived()
+Fri Mar 23 13:48:22 2018
+Received hello response from conveyor
+
+obj/src/main/cpp/asynchronous_method.cpp:90: info
+void conveyor::AsynchronousMethod::invoke(JsonRpc &, const Json::Value &)
+Fri Mar 23 13:48:22 2018
+getports parameters: {}
+
+obj/src/main/cpp/conveyorprivate.cpp:180: info
+void conveyor::ConveyorPrivate::updateAllPrinters()
+Fri Mar 23 13:48:22 2018
+Updating printers
+
+obj/src/main/cpp/asynchronous_method.cpp:90: info
+void conveyor::AsynchronousMethod::invoke(JsonRpc &, const Json::Value &)
+Fri Mar 23 13:48:22 2018
+getprinters parameters: {}
+
+obj/src/main/cpp/conveyorprivate.cpp:284: info
+void conveyor::ConveyorPrivate::updateAllJobs()
+Fri Mar 23 13:48:22 2018
+Updating jobs
+
+obj/src/main/cpp/asynchronous_method.cpp:90: info
+void conveyor::AsynchronousMethod::invoke(JsonRpc &, const Json::Value &)
+Fri Mar 23 13:48:22 2018
+getjobs parameters: {}
+
+obj/src/main/cpp/conveyorprivate.cpp:442: info
+void conveyor::ConveyorPrivate::helloReceived()
+Fri Mar 23 13:48:22 2018
+conveyor state initialized
+
+obj/src/main/cpp/asynchronous_method.cpp:36: info
+virtual void conveyor::AsynchronousMethodPrivate::response(const Json::Value &)
+Fri Mar 23 13:48:22 2018
+getports response: []
+
+obj/src/main/cpp/asynchronous_method.cpp:36: info
+virtual void conveyor::AsynchronousMethodPrivate::response(const Json::Value &)
+Fri Mar 23 13:48:22 2018
+getprinters response: [
+   {
+      "build_volume" : [ 246, 152, 155 ],
+      "can_print" : false,
+      "display_name" : "The Replicator 2X",
+      "driver_name" : "s3g",
+      "firmware_version" : null,
+      "has_heated_platform" : true,
+      "name" : "The Replicator 2X",
+      "number_of_toolheads" : 2,
+      "printer_type" : "The Replicator 2X",
+      "profile_name" : "Replicator2X",
+      "state" : "DISCONNECTED",
+      "temperature" : null,
+      "toolhead_target_temperature" : null
+   },
+   {
+      "build_volume" : [ 225, 145, 150 ],
+      "can_print" : false,
+      "display_name" : "The Replicator Single",
+      "driver_name" : "s3g",
+      "firmware_version" : null,
+      "has_heated_platform" : true,
+      "name" : "The Replicator Single",
+      "number_of_toolheads" : 1,
+      "printer_type" : "The Replicator Single",
+      "profile_name" : "ReplicatorSingle",
+      "state" : "DISCONNECTED",
+      "temperature" : null,
+      "toolhead_target_temperature" : null
+   },
+   {
+      "build_volume" : [ 285, 153, 155 ],
+      "can_print" : false,
+      "display_name" : "The Replicator 2",
+      "driver_name" : "s3g",
+      "firmware_version" : null,
+      "has_heated_platform" : false,
+      "name" : "The Replicator 2",
+      "number_of_toolheads" : 1,
+      "printer_type" : "The Replicator 2",
+      "profile_name" : "Replicator2",
+      "state" : "DISCONNECTED",
+      "temperature" : null,
+      "toolhead_target_temperature" : null
+   },
+   {
+      "build_volume" : [ 225, 145, 150 ],
+      "can_print" : false,
+      "display_name" : "The Replicator Dual",
+      "driver_name" : "s3g",
+      "firmware_version" : null,
+      "has_heated_platform" : true,
+      "name" : "The Replicator Dual",
+      "number_of_toolheads" : 2,
+      "printer_type" : "The Replicator Dual",
+      "profile_name" : "ReplicatorDual",
+      "state" : "DISCONNECTED",
+      "temperature" : null,
+      "toolhead_target_temperature" : null
+   },
+   {
+      "build_volume" : [ 106, 120, 106 ],
+      "can_print" : false,
+      "display_name" : "Thing-O-Matic Single, Stepstruder Mk6 or Mk7",
+      "driver_name" : "s3g",
+      "firmware_version" : null,
+      "has_heated_platform" : true,
+      "name" : "Thing-O-Matic Single, Stepstruder Mk6 or Mk7",
+      "number_of_toolheads" : 1,
+      "printer_type" : "Thing-O-Matic Single, Stepstruder Mk6 or Mk7",
+      "profile_name" : "TOMStepstruderSingle",
+      "state" : "DISCONNECTED",
+      "temperature" : null,
+      "toolhead_target_temperature" : null
+   },
+   {
+      "build_volume" : [ 252, 199, 148 ],
+      "can_print" : false,
+      "display_name" : "Replicator5_B",
+      "driver_name" : "birdwing",
+      "firmware_version" : null,
+      "has_heated_platform" : false,
+      "name" : "Replicator5_B",
+      "number_of_toolheads" : 1,
+      "printer_type" : "Replicator5_B",
+      "profile_name" : "Replicator_B",
+      "state" : "DISCONNECTED",
+      "temperature" : null,
+      "toolhead_target_temperature" : null
+   },
+   {
+      "build_volume" : [ 100, 100, 125 ],
+      "can_print" : false,
+      "display_name" : "Mini_4",
+      "driver_name" : "birdwing",
+      "firmware_version" : null,
+      "has_heated_platform" : false,
+      "name" : "Mini_4",
+      "number_of_toolheads" : 1,
+      "printer_type" : "Mini_4",
+      "profile_name" : "Mini_4",
+      "state" : "DISCONNECTED",
+      "temperature" : null,
+      "toolhead_target_temperature" : null
+   },
+   {
+      "build_volume" : [ 300, 305, 457 ],
+      "can_print" : false,
+      "display_name" : "Z18_6",
+      "driver_name" : "birdwing",
+      "firmware_version" : null,
+      "has_heated_platform" : true,
+      "name" : "Z18_6",
+      "number_of_toolheads" : 1,
+      "printer_type" : "Z18_6",
+      "profile_name" : "Z18_6",
+      "state" : "DISCONNECTED",
+      "temperature" : null,
+      "toolhead_target_temperature" : null
+   },
+   {
+      "build_volume" : [ 101, 126, 126 ],
+      "can_print" : false,
+      "display_name" : "Mini_8",
+      "driver_name" : "birdwing",
+      "firmware_version" : null,
+      "has_heated_platform" : false,
+      "name" : "Mini_8",
+      "number_of_toolheads" : 1,
+      "printer_type" : "Mini_8",
+      "profile_name" : "Mini_8",
+      "state" : "DISCONNECTED",
+      "temperature" : null,
+      "toolhead_target_temperature" : null
+   },
+   {
+      "build_volume" : [ 252, 199, 148 ],
+      "can_print" : false,
+      "display_name" : "Replicator5_5",
+      "driver_name" : "birdwing",
+      "firmware_version" : null,
+      "has_heated_platform" : false,
+      "name" : "Replicator5_5",
+      "number_of_toolheads" : 1,
+      "printer_type" : "Replicator5_5",
+      "profile_name" : "Replicator_5",
+      "state" : "DISCONNECTED",
+      "temperature" : null,
+      "toolhead_target_temperature" : null
+   }
+]
+
+obj/src/main/cpp/asynchronous_method.cpp:36: info
+virtual void conveyor::AsynchronousMethodPrivate::response(const Json::Value &)
+Fri Mar 23 13:48:22 2018
+getjobs response: []
+
+obj/src/model/machine_selection.cpp:570: info
+void MachineSelection::Private::setState(const MachineSelection::State)
+Fri Mar 23 13:48:25 2018
+MachineSelection state transition: State::WaitingForLastSelectedPrinterToConnect -> State::HasSelection
+
+obj/src/util/slicelib.cpp:205: info
+void SliceLibProcess::Private::start()
+Fri Mar 23 13:48:25 2018
+calling sliceconfig:
+get_profile
+-d (machine id):
+replicatordual
+-r (user print settings):
+{
+   "extruders" : [ 0 ],
+   "quality" : 2
+}
+
+
+
+obj/src/scan/window.cpp:503: info
+virtual void Scan::Window::closeEvent(QCloseEvent *)
+Fri Mar 23 13:48:36 2018
+Maybe closing scan window...
+
+obj/src/scan/window.cpp:506: info
+virtual void Scan::Window::closeEvent(QCloseEvent *)
+Fri Mar 23 13:48:36 2018
+Closing scan window
+
+obj/src/main/cpp/communication.cpp:75: info
+conveyor::ReaderThread::~ReaderThread()
+Fri Mar 23 13:48:36 2018
+Waiting for reader thread to end
+
+obj/src/main/cpp/communication.cpp:77: info
+conveyor::ReaderThread::~ReaderThread()
+Fri Mar 23 13:48:36 2018
+Reader thread finished
+
+obj/src/main/cpp/communication.cpp:82: info
+conveyor::ReaderThread::~ReaderThread()
+Fri Mar 23 13:48:36 2018
+Finished destroying connection
