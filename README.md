@@ -10,4 +10,4 @@
 - rollbar gopro mount. fixed
 - rollbar go-pro ball joint mount
 - 1.6 NA radio delete plate
-- all kinds of shit I wish I had more time to print for people.
+- all kinds of stuff I wish I had more time to prioritize to print
